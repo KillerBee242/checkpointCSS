@@ -1,0 +1,138 @@
+/* Content */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #0c1126;
+}
+
+/* First section */
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Navigation menu bar */
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo settings */
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+
+/* Menu link group */
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+/* Menu links settings */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* Menu links hover */
+nav ul li a:hover{
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Hero main content */
+.detel{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+/* H1 text */
+.detel h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* Span text */
+span{
+    color: orange;
+    font-weight: 500;
+}
+
+/* Paragraph */
+.detel p{
+    color: #fff;
+    font-weight: lighter;
+    line-height: 22px;
+}
+
+/* Button */
+.detel a{
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 3px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/* Button hover */
+.detel a:hover{
+    background-color: #fff;
+    color: #0c1126;
+    font-weight: 900;
+}
+
+/* Hero image group*/
+.images{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0;
+    right: 600px;
+}
+
+/* Hero images*/
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 20%;
+    transform: translateX(75%);
+    transition: bottom 1s, left 1s;
+}
+
+/* Shape hover */
+.images:hover .shape{
+    bottom: 60px;
+}
+
+/* Character hover */
+.images:hover .character{
+    left: 5px;
+}
+
+/* Social media icon group */
+.social{
+    margin-left: 7.8% ;
+    margin-top: 0;
+}
+
+/* Social media icons */
+.social a img{
+    width: 25px;
+}
